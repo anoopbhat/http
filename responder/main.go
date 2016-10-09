@@ -1,5 +1,5 @@
-// Package response ...
-package response
+// Package responder ...
+package responder
 
 import (
 	"encoding/json"
