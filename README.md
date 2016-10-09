@@ -11,3 +11,7 @@ HTTP request logger.
 ## [Recovery](https://godoc.org/github.com/kpurdon/http/recovery)
 
 HTTP recovery middleware.
+
+## [APIResponse](https://godoc.org/github.com/kpurdon/http/apiresponse)
+
+HTTP API response wrapper.
