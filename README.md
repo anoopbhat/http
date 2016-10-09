@@ -1,14 +1,11 @@
-WIP
----
-
 # http
 
 A collection of Go http utilities.
 
-## Request Logger
+## [Logger](https://godoc.org/github.com/kpurdon/http/logger)
 
-TODO
+HTTP request logger.
 
-## Recovery
+## [Recovery](https://godoc.org/github.com/kpurdon/http/recovery)
 
-TODO
+HTTP recovery middleware.

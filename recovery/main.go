@@ -1,5 +1,5 @@
-// Package httprecovery ...
-package httprecovery
+// Package recovery ...
+package recovery
 
 import (
 	"fmt"
@@ -37,8 +37,8 @@ func caller() string {
 	return fmt.Sprintf("pc:%x", pc)
 }
 
-// WrapHandler ...
-func WrapHandler(next http.Handler, l *log.Logger) http.Handler {
+// Wrap ...
+func Wrap(next http.Handler, l *log.Logger) http.Handler {
 	fn := func(w http.ResponseWriter, r *http.Request) {
 		defer func() {
 			if err := recover(); err != nil {
